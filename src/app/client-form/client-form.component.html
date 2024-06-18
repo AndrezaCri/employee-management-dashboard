@@ -1,0 +1,20 @@
+<div class=" appcontainer container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="row">
+    <div class="col">
+      <div class="custom-form-container border p-4 rounded bg-custom shadow">
+        <h2 class="form-heading">Gerenciamento de Colaboradores</h2>
+        <form (ngSubmit)="onSubmit()" #employeeForm="ngForm">
+          <div class="form-group mb-3">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name" required [(ngModel)]="employee.name" name="name" aria-describedby="nomeColaboradores" placeholder="Nome">
+          </div>
+          <div class="form-group mb-3">
+            <label for="occupation">Ocupação</label>
+            <input type="text" class="form-control" id="occupation" required [(ngModel)]="employee.occupation" name="occupation" placeholder="Cargo">
+          </div>
+          <button type="submit" class="btn btn-dark" [disabled]="!employeeForm.valid">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

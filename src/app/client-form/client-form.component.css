@@ -1,0 +1,17 @@
+.bg-custom {
+  background-color: #909590; /* Cor de fundo personalizada */
+  color: #2C302E; /* Cor do texto para contraste */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.appconteiner{
+  background-color: #909590; /* Cor de fundo personalizada */
+  color: #2C302E;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
