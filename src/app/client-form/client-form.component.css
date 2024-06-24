@@ -4,11 +4,11 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 100vh;
+
 }
 
 .appconteiner{
-  background-color: #909590; /* Cor de fundo personalizada */
+  background-color: #909590;
   color: #2C302E;
   width: 100%;
   padding-right: 15px;
