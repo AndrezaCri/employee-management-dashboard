@@ -1,0 +1,18 @@
+<div class="container" *ngIf="colaborador">
+  <h2 class="my-4">Editar Colaborador</h2>
+  <form (ngSubmit)="salvarEdicao()">
+    <div class="form-group">
+      <label for="name">Nome:</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="colaborador.nome" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="post">Cargo:</label>
+      <input type="text" class="form-control" id="post" [(ngModel)]="colaborador.cargo" name="post" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a [routerLink]="['/client-list']" class="btn btn-secondary">Cancelar</a>
+  </form>
+</div>
+<div class="container" *ngIf="!colaborador">
+  <p>Carregando...</p>
+</div>

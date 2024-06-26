@@ -1,0 +1,23 @@
+<div class="container">
+  <h2 class="my-4">Lista de Colaboradores</h2>
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th>Nome</th>
+        <th>Cargo</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let colaborador of colaboradores">
+        <td>{{ colaborador.nome }}</td>
+        <td>{{ colaborador.cargo }}</td>
+        <td>
+          <a [routerLink]="['client-', colaborador.id]" class="btn btn-primary btn-sm mr-2" (click)="isEditMode">Editar</a>
+          <button (click)="deleteColaborador(colaborador.id)" class="btn btn-danger btn-sm">Deletar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <a [routerLink]="['colaborador/novo']" class="btn btn-success btn-sm mt-3">Adicionar Novo Colaborador</a>
+</div>

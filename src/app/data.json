@@ -1,0 +1,14 @@
+{
+  "colaboradores": [
+    { "id": 1, "name": "João Silva", "post": "Desenvolvedor" },
+    { "id": 2, "name": "Maria Oliveira", "post": "Designer" },
+    { "id": 3, "name": "Pedro Santos", "post": "Gerente de Projetos" },
+    { "id": 4, "name": "Ana Paula", "post": "Analista" },
+    { "id": 5, "name": "Carlos Almeida", "post": "Desenvolvedor" },
+    { "id": 6, "name": "Beatriz Costa", "post": "Designer" },
+    { "id": 7, "name": "Ricardo Pereira", "post": "Gerente de TI" },
+    { "id": 8, "name": "Fernanda Lima", "post": "Scrum Master" },
+    { "id": 9, "name": "Gabriel Souza", "post": "DevOps" }
+  ]
+}
+
