@@ -1,3 +1,26 @@
+# Painel de Gerenciamento de Colaboradores
+
+Este projeto é um painel de gerenciamento de colaboradores desenvolvido com Angular. Permite listar, adicionar, editar e excluir informações de colaboradores através de uma interface web.
+
+## Funcionalidades
+
+- Listar colaboradores cadastrados.
+- Adicionar novos colaboradores com nome e cargo.
+- Editar informações de colaboradores existentes.
+- Excluir colaboradores da lista.
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado:
+
+- [Node.js](https://nodejs.org/) (inclui npm, o gerenciador de pacotes do Node.js)
+- Angular CLI: Execute `npm install -g @angular/cli` para instalar globalmente.
+
+
+
+
+
+
 # Clienthub
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
